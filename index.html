@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharif || Shop</title>
+    <link rel="stylesheet" href="./public/css/bootstrap@5.0.2_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  />
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- ==========Shop-Header========== -->
+    <div class="shop-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="./index.html">
+                        <img src="./public/images/shop.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Shop-Menu========== -->
+    <div class="shop-menu bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html">Shop</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="./product.html">Admin</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Shop-Area========== -->
+    <div class="shop-area my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wiget">
+                        <span class="wiget-title">Search</span>
+                        <input class="form-control" type="search">
+                    </div>
+                    <div class="wiget category">
+                        <span class="wiget-title">Category</span>
+                        <ul>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Electronic</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>                        
+                    </div>
+                    <div class="wiget tags">
+                        <span class="wiget-title">Tags</span>
+                        <div class="tags-item">
+                            <a href="#">Eid</a>
+                            <a href="#">Puja</a>
+                            <a href="#">Corona</a>
+                            <a href="#">Boishak</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <div class="product-item">
+                                <div class="card">
+                                    <img class="card-img" src="https://images.othoba.com/images/thumbs/0475175_womens-fashionable-half-silk-saree.jpeg" alt="">
+                                    <div class="card-body">
+                                        <p>Price : 1200tk</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a class="btn btn-sm btn-info" data-bs-toggle="modal" href="#single_product">View</a>
+                                        <a class="btn btn-sm btn-warning" href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="product-item">
+                                <div class="card">
+                                    <img class="card-img" src="https://images.othoba.com/images/thumbs/0475175_womens-fashionable-half-silk-saree.jpeg" alt="">
+                                    <div class="card-body">
+                                        <p>Price : 1200tk</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a class="btn btn-sm btn-info" href="#">View</a>
+                                        <a class="btn btn-sm btn-warning" href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="product-item">
+                                <div class="card">
+                                    <img class="card-img" src="https://images.othoba.com/images/thumbs/0475175_womens-fashionable-half-silk-saree.jpeg" alt="">
+                                    <div class="card-body">
+                                        <p>Price : 1200tk</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a class="btn btn-sm btn-info" href="#">View</a>
+                                        <a class="btn btn-sm btn-warning" href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <div class="product-item">
+                                <div class="card">
+                                    <img class="card-img" src="https://images.othoba.com/images/thumbs/0475175_womens-fashionable-half-silk-saree.jpeg" alt="">
+                                    <div class="card-body">
+                                        <p>Price : 1200tk</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a class="btn btn-sm btn-info" href="#">View</a>
+                                        <a class="btn btn-sm btn-warning" href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========Product Modal========== -->
+    <div class="modal fade" id="single_product">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="card-img" src="https://images.othoba.com/images/thumbs/0475175_womens-fashionable-half-silk-saree.jpeg" alt="">
+                        </div>
+                        <div class="col-md-6 my-5 single-view">
+                            <h2>Indian three piece</h2>
+                            <hr>
+                            <span class="single-price">
+                                1200 BDT
+                            </span>
+                            <hr>
+                            <div class="desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid laudantium tenetur quae, repudiandae tempora quidem!</p>
+                            </div>
+                            <div class="cart">
+                                <a class="btn btn-sm btn-info my-3" href="#">Add to cart</a>
+                                <a class="btn btn-sm btn-warning my-3" href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./public/js/bootstrap@5.0.2_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="./public/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+</body>
+</html>
